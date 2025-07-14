@@ -165,16 +165,17 @@ main{
     width: 70px;
     height: 90px;
 }
+/* shoes and bags section */
 
-.shoes-catcontainer{
+.shoes-catcontainer,.bag-catcontainer{
     display: flex;
     flex: 1;
     gap: 24px;
 }
-.shoes-cat{
+.shoes-cat,.bag-cat{
     margin-top: 47px;
 }
-.shoes-head{
+.shoes-head,.bag-head{
     font-size: 36px;
     color: #1F1F1F;
     width: 110px;
@@ -187,33 +188,44 @@ main{
     height: 500px;
     background-color: white;
 }
+.bag-cat1,.bag-cat2,.bag-cat3{
+    border-radius: 10px;
+    width: 360px;
+    height: 584px;
+    background-color: white;
+}
 .shoes-cat1 img,.shoes-cat2 img,.shoes-cat3 img{
     margin: 24px 0;
     width: 336px;
     height: 202px;
 }
-.shoes-cat1 h3,.shoes-cat2 h3,.shoes-cat3 h3{
+.bag-cat1 img,.bag-cat2 img,.bag-cat3 img{
+    margin: 24px 0;
+    width: 290px;
+    height: 290px;
+}
+.shoes-cat1 h3,.shoes-cat2 h3,.shoes-cat3 h3,.bag-cat1 h3,.bag-cat2 h3,.bag-cat3 h3{
     font-size: 24px;
     font-weight: 600;
     text-align: center;
     height: 72px;
     color: #1F1F1F;
 }
-.shoes-cat1 p,.shoes-cat2 p,.shoes-cat3 p{
+.shoes-cat1 p,.shoes-cat2 p,.shoes-cat3 p,.bag-cat2 p,.bag-cat1 p,.bag-cat3 p{
     font-size: 16px;
     margin: 16px 0;
     font-weight: 400;
     color: #4E4E4E;
     text-align: center;
 }
-.shoes-cat1 span,.shoes-cat2 span,.shoes-cat3 span{
+.shoes-cat1 span,.shoes-cat2 span,.shoes-cat3 span,.bag-cat1 span,.bag-cat2 span,.bag-cat3 span{
     display: block;
     font-size: 24px;
     font-weight: 500;
     text-align: center;
     margin: 16px 0;
 }
-.shoes-cat1 button,.shoes-cat2 button,.shoes-cat3 button{
+.shoes-cat1 button,.shoes-cat2 button,.shoes-cat3 button,.bag-cat1 button,.bag-cat2 button,.bag-cat3 button{
     width: 168px;
     height: 52px;
     display: block;
@@ -221,4 +233,56 @@ main{
     color: white;
     background-color: black;
     border-radius: 6px;
+}
+/* footer section */
+footer{
+    height: 650px;
+    background-color: white;
+    padding-top: 100px;
+    margin: 70px 0 0 0;
+}
+.footer-info-container{
+    background-color: #FEEAE9;
+    width: 1212px;
+    height: 455px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0;
+}
+.footer-tag{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #1F1F1F;
+    margin-bottom: 15px;
+}
+.footer-para{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+    margin-bottom: 16px;
+}
+.footer-input{
+    height: 73px;
+    width: 526px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #cccccc;
+    border:none;
+    border-radius: 5px 0 0 5px;
+    padding-left: 5px;
+}
+.footer-btn{
+    width:157px;
+    height: 73px;
+    margin-left: -4px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border:none;
+    border-radius: 0 5px 5px 0;
+    background:linear-gradient(to bottom,#FF589B,#FF136F)
 }
